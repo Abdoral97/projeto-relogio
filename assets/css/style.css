@@ -17,13 +17,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #1E5959, #89D99D );
+    background-image: linear-gradient(to top, #1E5959, #89D99D);
 }
 
 #container {
     background-color: #0B2B40;
     display: flex;
-    
+
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -33,10 +33,11 @@ body {
 
     padding: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
-    
+
 
 }
-.relogio{
+
+.relogio {
     background-color: #164b79;
     width: 150px;
     text-align: center;
@@ -46,9 +47,11 @@ body {
     border-radius: 15px;
 
 }
-.numbers{
+
+.numbers {
     font-size: 5.7rem;
 }
-p{
+
+p {
     font-size: 1rem;
 }

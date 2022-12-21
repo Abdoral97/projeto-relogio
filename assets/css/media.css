@@ -1,51 +1,57 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 720px) and (max-width: 992px) { 
+@media screen and (min-width: 720px) and (max-width: 992px) {
     #container {
         flex-direction: row;
         height: auto;
         width: 85vw;
     }
-    .numbers{
+
+    .numbers {
         font-size: 7rem;
-        
+
     }
-    p{
+
+    p {
         font-size: 1.20rem;
     }
-    .relogio{
+
+    .relogio {
         width: 165px;
         margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     #container {
         flex-direction: row;
         height: auto;
         width: 85vw;
         padding: 3rem;
     }
-    .numbers{
+
+    .numbers {
         font-size: 8.5rem;
-        
+
     }
-    p{
+
+    p {
         font-size: 1.4rem;
     }
-    .relogio{
+
+    .relogio {
         width: 215px;
         display: flex;
         margin: auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
     }
 }
 
@@ -57,21 +63,23 @@
         min-width: 1150px;
         padding: 3rem;
     }
-    .numbers{
+
+    .numbers {
         font-size: 9.5rem;
-        
+
     }
-    p{
+
+    p {
         font-size: 1.5rem;
     }
-    .relogio{
+
+    .relogio {
         width: 280px;
         display: flex;
         margin: auto;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        
+
     }
 }
-
